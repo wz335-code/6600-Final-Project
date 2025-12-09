@@ -10,7 +10,7 @@ This repository contains our end-to-end pipeline for simplifying English news ar
 - a LangGraph-based inference agent that plans, rewrites, and repairs drafts with automatic CEFR and salience checks
 - automatic evaluation that mixes readability scores, semantic similarity, and LLM-as-a-judge scoring
 
-Use this README as a reproducibility guide for the BYU CS 6600 final project.
+Use this README as a reproducibility guide for the DSAN 6600 final project.
 
 ## Repository Layout
 - `scripts/` – entry points for downloading corpora, training seq2seq models, and running the LangGraph pipeline (document-level utilities live in `scripts/document-level/`).
@@ -23,7 +23,6 @@ Use this README as a reproducibility guide for the BYU CS 6600 final project.
 - `data/raw` and `data/processed` – placeholder directories for downloaded corpora
 - `outputs/` – drop checkpoints, generations, and evaluation CSVs here
 
-> Tip: keep large artifacts (HF downloads, checkpoints) outside Git and symlink if necessary.
 
 ## Environment Setup
 1. **Python** – tested with Python 3.10/3.11 on macOS (MPS) and Linux (CUDA/T4).  
