@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+data/raw/
+data/processed/
+
+outputs/
+
+
+# Model checkpoints
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.pkl
